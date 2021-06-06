@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CrearSala"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/past"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvExplosionMan4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Crea una sala para empezar"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_NombreSala"
+        android:layout_width="299dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="@string/escribe_tu_ip"
+        android:inputType="text"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCrearSala2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCrearSala2"
+        android:layout_width="158dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/style_principal_button"
+        android:text="Crear"
+        android:textColor="@color/zxing_status_text"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
